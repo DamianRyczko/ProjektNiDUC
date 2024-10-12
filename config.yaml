@@ -1,0 +1,20 @@
+should_generate_new_data: True # czy ma generować nowy plik z danymi (True/False)
+
+#mają znaczenie tylko jak should_generate_new_data = True
+length: 16384 # długośc ciągu danych (musi być podzielne przez 4)
+n_of_samples: 256 #ile ciągów wygeneruje
+
+#parametry symulacji ============================================================
+
+max_retransmissions: 5 #maxymalna ilość próźb o ponowne przesłanie pakietu
+
+#kanał bsc
+should_simulate_bsc: True #czy ma symulować z kanałem bsc
+ber: 0.1 #bit error rate
+
+#kanał gilberta elliotta
+should_simulate_gilbert_elliott: True #czy ma symulować z kanałem gilberta elliotta
+ber_good: 0.0001 #bit error rate dla kanału w stanie "dobrym"
+ber_bad: 0.1 #bit error rate dla kanału w stanie "złym"
+p_good_to_bad: 0.1 #prawdopodobieństwo że kanał przejdzie ze stanu dobrego do stanu złego
+p_bad_to_good: 0.3  #prawdopodobieństwo że kanał przejdzie ze stanu złego do stanu dobrego
