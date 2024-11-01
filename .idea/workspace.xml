@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f7a3f3-7b5a-4faa-b221-343770728af2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProjektNiDUC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bsc_channel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bsc_harq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fec_hamming_encode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gilbert_elliott_channel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gilbert_elliott_harq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsc_channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsc_harq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fec_hamming_encode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gilbert_elliott_channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gilbert_elliott_harq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmition.py" beforeDir="false" afterPath="$PROJECT_DIR$/transmition.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2nM0zdOPiWuoKox4ZUQQ44s8nQu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,13 +35,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.fec_hamming_encode.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.transmition.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Damian Ryczko/PycharmProjects/ProjektNiDUC",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,11 +71,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728767900475</updated>
-      <workItem from="1728767907725" duration="830000" />
+      <workItem from="1728767907725" duration="1575000" />
+      <workItem from="1728815608733" duration="2071000" />
+      <workItem from="1728838746889" duration="1872000" />
+      <workItem from="1729838340508" duration="108000" />
+      <workItem from="1729957526807" duration="69000" />
+      <workItem from="1730416703354" duration="7478000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProjektNiDUC$transmition.coverage" NAME="transmition Coverage Results" MODIFIED="1730423783394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjektNiDUC$fec_hamming_encode.coverage" NAME="fec_hamming_encode Coverage Results" MODIFIED="1730417106781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjektNiDUC$main.coverage" NAME="main Coverage Results" MODIFIED="1730418286176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
